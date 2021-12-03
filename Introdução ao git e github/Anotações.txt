@@ -1,0 +1,27 @@
+Link para o GIT: https://git-scm.com/downloads
+O git bash é um terminal extendido para otimizar o Git
+
+Comandos básico para o desempenho no terminal:
+CLI = Comand Line Interface
+Comandos do prompt de comando:
+Lista de diretórios dentro daquele local = “dir”
+Navegar entre as páginas = “cd” sic* /
+Retroceder a página = “cd ..”
+Limpar a tela do terminal = “cls”
+Criar uma pagina pelo terminal = “mkdir” + nome da pagina
+Criar coisas dentro da pagina sintaxe = echo hello “nome do arquivo.”
+Deletar arquivos da pagina = del “nome da pagina”
+Deletar pagina = rmdir “pagina”  /S /Q
+
+Git por trás dos panos
+- SHA1
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+ A sigla SHA significa Secure Hash Algorithm(Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA(Agência de segurança Nacional dos EUA), ele vai encriptar os arquivos, que vai gerar um conjunto de caracteres identificador dos 40 digitos
+
+Encriptar arquivos usando o Git Bash – openssl sha1 “nome do arquivo”
+Objetos internos do git – BLOBS, TREES, COMMITS = responsável pelo versionamento
+
+
+Chave SSH – É a forma segura de se conectar entre duas maquinas, ou servidor. Com chaves publicas e privadas.
